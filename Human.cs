@@ -19,8 +19,8 @@ namespace RSPLS_Csharp
 				player_choice = Console.ReadLine();
 				return player_choice;
 		}
-		public override void ChooseGesture()
-        {
+		public override void ChooseGesture() //You might be better served to use a Switch-Case statement instead of the compound If-else if-else section
+		{
 			for (int count = 0; count < gestures.Count; count++)
 				Console.WriteLine($"Enter {count++} to use {gestures}");
 
