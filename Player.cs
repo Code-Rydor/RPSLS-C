@@ -25,7 +25,6 @@ namespace RSPLS_Csharp
 
 
 		public abstract void ChooseGesture();
-		{
-		}
+		
 	}
 }
