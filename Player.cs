@@ -11,11 +11,11 @@ namespace RSPLS_Csharp
 		public List<string> gestures;
 
 		//Constructor
-		public Player(string name)
+		public Player(string name, string chosen_gesture)
         {
 			this.name = name;
 			this.chosen_gesture = ""; // TODO: Correct this later
-			this.gestures = new List<string>();
+			gestures = new List<string>();
 			gestures.Add("Rock");
 			gestures.Add("Paper");
 			gestures.Add("Scissors");
